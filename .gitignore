@@ -1,0 +1,17 @@
+# 가상환경·캐시
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 빌드 결과(설치 파일은 packaging\build.ps1로 다시 만든다)
+build/
+dist/
+*.spec
+
+# 내 PC의 절대 경로가 들어 있는 바로가기, 자동 생성되는 아이콘
+*.lnk
+packaging/app.ico
+
+# 시험 중 생기는 임시 파일
+*.bak-v*
